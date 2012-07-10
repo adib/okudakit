@@ -661,7 +661,7 @@
 					"$(PROJECT_DIR)/include/",
 				);
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				INSTALL_PATH = "@rpath";
 				PRODUCT_NAME = OkudaKit;
 				SDKROOT = "";
 				WRAPPER_EXTENSION = framework;
@@ -687,7 +687,7 @@
 					"$(PROJECT_DIR)/include/",
 				);
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				INSTALL_PATH = "@rpath";
 				PRODUCT_NAME = OkudaKit;
 				SDKROOT = "";
 				WRAPPER_EXTENSION = framework;
